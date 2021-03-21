@@ -2073,11 +2073,11 @@ var Logo$1 = function (_a) {
     var isAbsoluteUrl = href.startsWith("http");
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$N, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$M, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React.createElement(StyledLink$1, { as: "a", href: href, "aria-label": "MilkSwap home page" },
-            React.createElement("img", { src: "https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true", alt: "Milkswap Logo", className: "mobile-icon" }),
-            React.createElement("img", { src: "https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/milkswap_logo.svg?raw=true", alt: "Milkswap Logo", className: "desktop-icon" }))) : (React.createElement(StyledLink$1, { to: href, "aria-label": "MilkSwap home page" },
-            React.createElement("img", { src: "https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true", alt: "Milkswap Logo", className: "mobile-icon" }),
-            React.createElement("img", { src: "https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/milkswap_logo.svg?raw=true", alt: "Milkswap Logo", className: "desktop-icon" })))));
+        isAbsoluteUrl ? (React.createElement(StyledLink$1, { as: "a", href: href, "aria-label": "ToyPrinter home page" },
+            React.createElement("img", { src: "https://github.com/DINOTOKEN/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true", alt: "ToyPrinter Logo", className: "mobile-icon" }),
+            React.createElement("img", { src: "https://github.com/DINOTOKEN/pancake-uikit/blob/master/src/widgets/Menu/toy_logo.svg?raw=true", alt: "ToyPrinter Logo", className: "desktop-icon" }))) : (React.createElement(StyledLink$1, { to: href, "aria-label": "ToyPrinter home page" },
+            React.createElement("img", { src: "https://github.com/DINOTOKEN/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true", alt: "ToyPrinter Logo", className: "mobile-icon" }),
+            React.createElement("img", { src: "https://github.com/DINOTOKEN/pancake-uikit/blob/master/src/widgets/Menu/toy_logo.svg?raw=true", alt: "ToyPrinter Logo", className: "desktop-icon" })))));
 };
 var templateObject_1$y;
 
@@ -2326,8 +2326,8 @@ var PanelFooter = function (_a) {
     }
     return (React.createElement(Container$4, null,
         React.createElement(SocialEntry, null,
-            cakePriceUsd ? (React.createElement(PriceLink, { href: "https://pancakeswap.info/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82", target: "_blank" },
-                React.createElement("img", { src: "https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/logo.png?raw=true", alt: "Milkswap Logo", style: {
+            cakePriceUsd ? (React.createElement(PriceLink, { href: "https://pancakeswap.info/token/0xe6020605d2a256278543bd9980B672B1e45797b4", target: "_blank" },
+                React.createElement("img", { src: "https://github.com/DINOTOKEN/pancake-uikit/blob/master/src/widgets/Menu/logo.png?raw=true", alt: "ToyPrinter Logo", style: {
                         width: "24px",
                         marginRight: "8px",
                     } }),
