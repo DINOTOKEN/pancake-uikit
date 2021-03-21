@@ -2194,14 +2194,14 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/milkswap_bsc",
+                href: "https://t.me/ToyPrinterSubsandAnn",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/milkswap_bsc",
+        href: "https://twitter.com/dino_token",
     },
 ];
 var MENU_HEIGHT = 64;
